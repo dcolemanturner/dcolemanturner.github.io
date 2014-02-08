@@ -139,16 +139,23 @@
     });
   };
 
-  $(document).ready(function(){
+  $(document).ready(function()
+  {
     $('.js--triggerAnimation').click(function(){
       var anim = $('.js--animations').val();
       testAnim(anim);
     });
 
-    $('.js--animations').change(function(){
-      var anim = $(this).val();
+    $('#animationSandbox').mouseenter(function(){
+      var anim = "swing";
       testAnim(anim);
     });
+
+    $('.js--animations').change(function(){
+        var anim = $(this).val();
+        testAnim(anim);
+    });
+
   });
 
 </script>
