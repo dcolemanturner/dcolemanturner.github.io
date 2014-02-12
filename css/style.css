@@ -213,3 +213,14 @@ html {
     -webkit-filter: hue-rotate(360deg);
   }
 }
+
+/*-----------------------------------*\
+  $Dockside Styles
+\*-----------------------------------*/
+.category_image {
+
+  background-color:black;
+  height:300px;
+  margin:10px;
+}
+
